@@ -1,0 +1,1 @@
+javaw -Xmx200m -jar D:\CodeLibrary\JavaLibrary\ImageExtract\AstronomyDesktop.jar
