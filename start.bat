@@ -1,1 +1,1 @@
-javaw -Xmx200m -jar D:\CodeLibrary\JavaLibrary\ImageExtract\AstronomyDesktop.jar
+javaw -Xmx200m -jar %~dp0DesktopChanger.jar

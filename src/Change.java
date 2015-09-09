@@ -16,11 +16,12 @@ import javax.swing.text.html.parser.ParserDelegator;
 
 public class Change {
 	
-	static final String changeDesktopLocation = "D:\\CodeLibrary\\JavaLibrary\\ImageExtract\\changeDesktop";
+	static final String changeDesktopLocation = "D:\\CodeLibrary\\JavaLibrary\\DesktopChanger\\changeDesktop";
 	
 	static final String astronomyUrl = "http://apod.nasa.gov/apod/astropix.html";
 	static final String sourceUrl = "http://apod.nasa.gov/";
 	static final String path = "./day.bmp";
+
 	
 	public static void main(String args[]){
 		
@@ -64,7 +65,7 @@ public class Change {
 		if(os.startsWith("Windows")){
 			System.out.println("start batch");
 			try{
-			Runtime.getRuntime().exec("cmd /c start " + changeDesktopLocation);
+			Runtime.getRuntime().exec("cmd /c start changeDesktop");
 			}catch(Exception e){
 				System.err.println(e);
 			}
